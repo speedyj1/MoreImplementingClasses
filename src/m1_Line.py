@@ -216,10 +216,10 @@ class Line(object):
           :type start: Point
           :type end:   Point
         """
-        self.start
-        self.end 
+        self.start = start.clone()
+        self.end = end.clone()
         # --------------------------------------------------------------
-        # TODO: 3.
+        # DONE: 3.
         #   a. READ the above specification, including the Example.
         #        ** ASK QUESTIONS AS NEEDED. **
         #        ** Be sure you understand it, ESPECIALLY the Example.
@@ -327,6 +327,7 @@ class Line(object):
         Type hints:
           :rtype: Line
         """
+        line = run_test_init()
         # --------------------------------------------------------------
         # TODO: 4.
         #   a. READ the above specification, including the Example.
