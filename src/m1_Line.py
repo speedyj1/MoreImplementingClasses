@@ -216,8 +216,7 @@ class Line(object):
           :type start: Point
           :type end:   Point
         """
-        self.start = start.clone()
-        self.end = end.clone()
+
         # --------------------------------------------------------------
         # DONE: 3.
         #   a. READ the above specification, including the Example.
